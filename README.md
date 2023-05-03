@@ -1,1 +1,0 @@
-# calculating_euler_mascheroni
