@@ -1,7 +1,7 @@
 import decimal
 
 iter = int(input("How many terms of the series should be calculated? : "))
-inf1 = int(input("What number should be substituted for infinity in the limit for the logarithm? : "))
+inf1 = int(input("What number should be substituted for infinity in the limit for the logarithm?(Can be relatively low.) : "))
 decimal.getcontext().prec = 1 + (int(input("How many digits would you like to compute for each calculation? : ")))
 
 def log2(x, inf):
